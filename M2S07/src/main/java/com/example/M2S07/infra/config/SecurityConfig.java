@@ -32,6 +32,7 @@ import java.text.ParseException;
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
+@RequiredArgsConstructor
 public class SecurityConfig {
     @Value("${jwt.public.key}")
     private RSAPublicKey pub;
