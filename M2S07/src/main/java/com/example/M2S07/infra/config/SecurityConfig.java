@@ -1,5 +1,6 @@
 package com.example.M2S07.infra.config;
 
+import com.example.M2S07.service.UsuarioDetailsService;
 import com.nimbusds.jose.JOSEException;
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
